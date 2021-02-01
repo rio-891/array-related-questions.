@@ -11,6 +11,7 @@ print("Sum of array is",sum)
 
 2) ## Python Program to find largest element in an array using max keyword.
 
+
 arr=[12,32,543,56,7,1]
 n=len(arr)
 print("The length of array is:", n)
@@ -27,9 +28,9 @@ print("Largest number in array is:",max)  ## will print largest number in array.
 
 It should remove all values from list a, which are present in list b.
 
+
  r=[]
     for i  in a:
         if i  not in b:
             r.append(i)
-        
     return r
